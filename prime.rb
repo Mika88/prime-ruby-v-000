@@ -1,6 +1,6 @@
 def prime?(num)
  if num < 2
-  false
+  return false
  end
   (2...num).to_a.each do |item|
   if num % item == 0
